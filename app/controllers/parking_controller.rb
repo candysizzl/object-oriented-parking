@@ -105,7 +105,11 @@ class ParkingController < ApplicationController
     
     def find_nearest_slot(slots, entry_point)
       raise 'Invalid entry point.' unless entry_point.between?(0, slots.first.distances.size - 1)
-    
+
+      # Used a greedy approach to find the nearest slot,
+      # however, this can be improved by using some algorithm like Dijkstra's algorithm, or by using a priority queue.
+      # But due to time constraints, and smaller scope of the application, used this approach.
+
       nearest_slot = nil
       min_distance_at_entry_point = Float::INFINITY
     
