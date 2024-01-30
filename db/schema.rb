@@ -25,7 +25,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_29_190518) do
     t.integer "size"
     t.datetime "entry_time"
     t.datetime "exit_time"
-    t.integer "parking_slot_id", null: false
+    t.integer "parking_slot_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["parking_slot_id"], name: "index_vehicles_on_parking_slot_id"
