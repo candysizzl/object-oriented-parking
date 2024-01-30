@@ -10,7 +10,7 @@ const UserViewPage = () => {
         <Tab eventKey="ParkVehicle" title="Park Vehicle">
           <ParkVehicle />
         </Tab>
-        <Tab eventKey="UnparkVehicle" title="UnparkVehicle">
+        <Tab eventKey="UnparkVehicle" title="Unpark Vehicle">
           <UnparkVehicle />
         </Tab>
       </Tabs>

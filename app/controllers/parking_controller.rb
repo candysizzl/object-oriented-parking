@@ -85,7 +85,7 @@ class ParkingController < ApplicationController
             exit_time: nil
           )
         else
-          vehicle = Vehicle.new(
+          vehicle = Vehicle.create(
             reg_number: params[:reg_number],
             size: size,
             entry_time: Time.now,
@@ -96,14 +96,7 @@ class ParkingController < ApplicationController
   
         slot = available_slots.find(allocated_slot.id)
         slot.update(vehicle: vehicle)
-
-        if vehicle.save
-        else
-          # Handle validation errors
-          puts "Vehicle not saved"
-          puts vehicle.errors.full_messages
-        end
-          
+  
         render json: { success: true, message: "Vehicle parked successfully. Slot Position: #{allocated_slot.distances}" }
       else
         render json: { success: false, message: 'No available parking slot for the given size.' }
