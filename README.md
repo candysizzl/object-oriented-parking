@@ -20,7 +20,7 @@ Make sure you have the following installed on your machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Adan-Asim/parking-management-system.git
+   git clone https://github.com/candysizzl/object-oriented-parking.git
 
 2. **Navigate to the Rails backend directory:**
 `cd parking-management-system`
@@ -78,12 +78,12 @@ Make sure you have the following installed on your machine:
 ### All of these API routes are access using React frontend with help of fetch.
 
 ### Admin View
-<img width="1728" alt="image" src="https://github.com/Adan-Asim/Parking-Management-System/assets/67644268/f43d8cad-28ed-4612-b518-48a41546d36a">
-<img width="1728" alt="image" src="https://github.com/Adan-Asim/Parking-Management-System/assets/67644268/29abeb43-1c75-414b-938c-928c258be801">
+<img width="1728" alt="image" src="https://raw.githubusercontent.com/candysizzl/object-oriented-parking/main/oo-status.png">
+<img width="1728" alt="image" src="https://raw.githubusercontent.com/candysizzl/object-oriented-parking/main/oo-parking-slot.png">
 
 ### User View
-<img width="1728" alt="image" src="https://github.com/Adan-Asim/Parking-Management-System/assets/67644268/e0b0cfbc-71e8-4807-8bf7-982ea6adf467">
-<img width="1728" alt="image" src="https://github.com/Adan-Asim/Parking-Management-System/assets/67644268/9a5f790e-692a-4b75-a582-c0563e2da91a">
+<img width="1728" alt="image" src="https://raw.githubusercontent.com/candysizzl/object-oriented-parking/main/oo-park-vehicle.png">
+<img width="1728" alt="image" src="https://raw.githubusercontent.com/candysizzl/object-oriented-parking/main/oo-unpark-vehicle.png">
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
